@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.main {
+    height: 730px;
+    /* background-color: #FFDDDD; */
+}
+
+.bg-img {
+    background-image: url(https://www.w3schools.com/w3images/wedding_couple.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    filter: grayscale(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: raleway;
+    font-size: 15px;
+}
+
+.content>h1,
+.content>h2,
+.content>p {
+    margin: 10px 0px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+
+.content>h1 {
+    font-size: 64px;
+}
+
+.content>h2,
+.content>h2>p {
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFDDDD;
+    filter: grayscale(50%);
+    padding: 64px;
+}
+
+.card>.text {
+    padding: 10px;
+    margin: 10px;
+    color: #757575;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.img {
+    width: 980px;
+    height: 550px;
+    margin: 32px 0px;
+}
+
+.img>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.para {
+    width: 910px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.para>p {
+    font-style: italic;
+    line-height: 2;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+.btn {
+    width: 910px;
+    text-align: center;
+}
+
+.btn>a>button {
+    border-radius: 3px;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.btn>a>button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.main-2 {
+    height: 730px;
+    /* background-color: #FFDDDD; */
+}
+
+.bg-img1 {
+    background-image: url(https://www.w3schools.com/w3images/flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    /* filter: grayscale(25%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: raleway;
+    font-size: 15px;
+}
+
+.content1>h1,
+.content1>h2 {
+    margin: 10px 0px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+
+.content1>h1 {
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+}
+
+.content1>h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFDDDD;
+    filter: grayscale(50%);
+    padding: 64px;
+}
+
+.location>.wed-location {
+    padding: 10px;
+    margin: 10px;
+    color: #757575;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.location-img {
+    width: 1000px;
+    height: 650px;
+    margin: 32px 0px;
+    filter: grayscale(50%);
+}
+
+.location-img>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.venue {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+}
+
+.When,
+.Where {
+    text-align: center;
+    line-height: 3;
+}
+
+.When>h1,
+.Where>h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.When>p,
+.Where>p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.response {
+    background-color: #FFDDDD;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resp-container {
+    line-height: 3;
+    text-align: center;
+}
+
+.resp-container>.item-1 {
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.resp-container>.item-2 {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.btn-1 {
+    border: 2px solid black;
+    font-size: xx-large;
+}
+
+.btn-2 {
+    padding: 20px;
+
+}
+
+.btn {
+    width: 910px;
+    text-align: center;
+}
+
+.btn>a>button {
+    border-radius: 3px;
+    padding: 15px 50px;
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin: 20px;
+}
+
+.btn>a>button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+.down {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+}
+
+.down>.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.foot>a {
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 379px;
+}
+
+.foot>a:hover {
+    color: #000;
+    background-color: #a79f9f;
+}
+
+.foot>.item:hover {
+    color: white;
+    background-color: #000;
+}
